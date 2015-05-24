@@ -17,6 +17,8 @@ Route::get('home', 'HomeController@index');
 
 Route::controller('entidades', 'EntidadesController');
 Route::controller('disciplinas', 'DisciplinasController');
+Route::controller('eventos', 'EventosController');
+
 
 
 
